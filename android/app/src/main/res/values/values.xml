@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="project_id">fotdsfirebase</string>
+    <string name="google_app_id">1:230628853467:android:8d8398a05640ce782feefe</string>
+    <string name="google_api_key">AIzaSyB7Nw0y2_QsxRULniahH04Mz60XPzpxejc</string>
+    <string name="storage_bucket">fotdsfirebase.firebasestorage.app</string>
+    <string name="gcm_defaultSenderId">230628853467</string>
+</resources>

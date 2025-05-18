@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "230628853467",
+    "project_id": "fotdsfirebase",
+    "storage_bucket": "fotdsfirebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230628853467:android:8d8398a05640ce782feefe",
+        "android_client_info": {
+          "package_name": "com.example.fotsd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7Nw0y2_QsxRULniahH04Mz60XPzpxejc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
