@@ -19,11 +19,14 @@ class _SignupState extends State<Signup> {
   final TextEditingController _stIDController = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  final TextEditingController _confirmPasswordController = TextEditingController();
+  final TextEditingController _confirmPasswordController =
+      TextEditingController();
 
   String? _selectedRole;
   final List<String> _role = ['Student', 'Staff'];
   bool _isLoading = false;
+
+  //registration function
 
   Future<void> _register() async {
     if (_formKey.currentState!.validate()) {
