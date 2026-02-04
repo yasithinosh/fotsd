@@ -9,7 +9,7 @@ class NewsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Announcements'),
-        backgroundColor: Colors.orange,
+        backgroundColor: const Color.fromARGB(255, 253, 153, 3),
         centerTitle: true,
       ),
       body: Container(

@@ -94,8 +94,8 @@ class Passwordreset extends StatelessWidget {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color(0xFFFFAB40), // Light
-              Color(0xFFFAE8D0), // Dark
+              Color.fromARGB(255, 255, 170, 59), // Light
+              Color.fromARGB(255, 246, 227, 202), // Dark
             ],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,

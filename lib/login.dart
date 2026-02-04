@@ -14,6 +14,7 @@ class Login extends StatefulWidget {
   _LoginState createState() => _LoginState();
 }
 
+// ignore: prefer_typing_uninitialized_variables
 class _LoginState extends State<Login> {
   final _auth = FirebaseAuth.instance;
   final _firestore = FirebaseFirestore.instance;
@@ -37,6 +38,7 @@ class _LoginState extends State<Login> {
     );
   }
 
+// This function handles the login process
   Future<void> _login() async {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();

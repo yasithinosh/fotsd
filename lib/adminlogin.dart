@@ -97,11 +97,11 @@ class _LoginState extends State<AdminLogin> {
                 padding: const EdgeInsets.all(16.0),
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.9),
+                    color: const Color.fromARGB(255, 234, 222, 222).withOpacity(0.9),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: const [
                       BoxShadow(
-                        color: Colors.black12,
+                        color: Color.fromARGB(31, 8, 8, 8),
                         blurRadius: 10,
                         spreadRadius: 5,
                       ),
@@ -132,7 +132,7 @@ class _LoginState extends State<AdminLogin> {
                         ElevatedButton(
                           onPressed: _isLoading ? null : _login,
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: const Color(0xFFFFAB40),
+                            backgroundColor: const Color.fromARGB(255, 254, 169, 58),
                             minimumSize: const Size(double.infinity, 50),
                           ),
                           child: _isLoading
@@ -142,7 +142,7 @@ class _LoginState extends State<AdminLogin> {
                               : const Text(
                                   'Log In',
                                   style: TextStyle(
-                                    color: Color.fromARGB(255, 63, 27, 170),
+                                    color: Color.fromARGB(255, 57, 22, 161),
                                     fontSize: 18,
                                   ),
                                 ),

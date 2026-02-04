@@ -6,27 +6,27 @@ class AttendanceScreen extends StatelessWidget {
     {
       "subjectCode": "ICT 2312",
       "description": "Skill Development Project",
-      "attendance": "10%",
+      "attendance": "14%",
     },
     {
       "subjectCode": "ICT 2212",
       "description": "Skill Development Project",
-      "attendance": "10%",
+      "attendance": "60%",
     },
     {
       "subjectCode": "ICT 2112",
-      "description": "Skill Development Project",
-      "attendance": "10%",
+      "description": "Data Base Management",
+      "attendance": "55%",
     },
     {
       "subjectCode": "CMT 2012",
       "description": "Software System Design",
-      "attendance": "10%",
+      "attendance": "80%",
     },
     {
       "subjectCode": "ICT 2212",
       "description": "Skill Development Project",
-      "attendance": "10%",
+      "attendance": "90%",
     },
   ];
 

@@ -97,7 +97,7 @@ class FirstPage extends StatelessWidget {
                   child: const Text(
                     'Log In',
                     style: TextStyle(
-                      color: Color.fromARGB(255, 63, 27, 170),
+                      color: Color(0xFF37169B),
                       fontSize: 18,
                     ),
                   ),
@@ -115,7 +115,7 @@ class FirstPage extends StatelessWidget {
                   child: const Text(
                     'Sign Up',
                     style: TextStyle(
-                      color: Color.fromARGB(255, 63, 27, 170),
+                      color: Color(0xFF37169B),
                       fontSize: 18,
                     ),
                   ),

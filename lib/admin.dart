@@ -41,7 +41,7 @@ class AdminDashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Admin Dashboard'),
+        title: const Text('Admin Dashboard.'),
         leading: IconButton(
           icon: const Icon(Icons.dehaze),
           onPressed: () {
@@ -64,7 +64,7 @@ class AdminDashboard extends StatelessWidget {
               child: const CircleAvatar(
                 radius: 20,
                 child: Icon(Icons.logout_rounded,
-                    color: Color.fromARGB(255, 221, 136, 9)),
+                    color: Color.fromARGB(255, 230, 144, 14)),
               ),
             ),
           ),
@@ -222,7 +222,7 @@ class _LoginScreenState extends State<Adminlogin> {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
-            title: const Text("Login Failed"),
+            title: const Text("Login Failed."),
             content: Text(e.toString()),
             actions: [
               TextButton(
