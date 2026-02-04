@@ -30,7 +30,7 @@ A comprehensive, cross-platform mobile application built with **Flutter** and **
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yasithinosh/fotsd.git]
+    git clone https://github.com/yasithinosh/fotsd.git
     ```
 2.  **Install dependencies:**
     ```bash
